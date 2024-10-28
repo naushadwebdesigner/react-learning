@@ -1,6 +1,7 @@
 
 import './App.css';
 import Counter from './compnents/Naushad/Counter';
+import NavbarwithUseState from './compnents/Naushad/NavbarwithUseState';
 import Usestateexample01 from './compnents/Naushad/Usestateexample01';
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <>    
     {/* <Counter />     */}
 
-    <Usestateexample01 />
+    {/* <Usestateexample01 /> */}
+
+    <NavbarwithUseState />
 
     </>
 

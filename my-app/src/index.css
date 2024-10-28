@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.heading.showme {
+  display: block;
+  color: red;
+}
+.heading {
+  display: none;
+}
