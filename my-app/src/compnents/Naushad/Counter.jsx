@@ -4,12 +4,12 @@ function Counter() {
   let [counter, setCounter] = useState(0);
 
   const addNumber = () => {
-    setCounter(counter + 1); // Increment correctly
+    setCounter(counter + 1); 
   };
 
   const removeNumber = () => {
     if (counter > 0) {
-      setCounter(counter - 1); // Decrement correctly
+      setCounter(counter - 1); 
     }
   };
 
